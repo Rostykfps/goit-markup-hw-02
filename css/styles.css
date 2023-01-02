@@ -1,0 +1,101 @@
+:root {
+    --color-primary--: #434455;
+    --color-secondary--: #2E2F42;
+    --color-background--: #fff;
+    --color-logo-blue--: #4D5AE5;
+    --color-button-hero-active--: #404BBF;
+    
+
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary--);
+    background-color: var(--color-background--);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+/* STUDIO */
+/* HEADER */
+/* NAVIGATION */
+/* LOGO NAVIGATION, LOGO FOOTER*/
+.logo-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-secondary--);
+}
+.logo-blue {
+    color: var(--color-logo-blue--);
+}
+/* NAV MENU */
+.header-menu {
+    color: var(--color-secondary--);
+}
+/* HEADER CONTACTS */
+.header-contacts {
+    font-weight: 400;
+    color: var(--color-primary--);
+}
+/* MAIN */
+/* HERO */
+.hero {
+    background-color: var(--color-secondary--);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--color-background--);
+}
+.hero-button {
+    display: flex;
+    letter-spacing: 0.04em;
+    align-items: center;
+    color: var(--color-background--);
+    background-color: var(--color-logo-blue--);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background: var(--color-button-hero-active--);
+}
+/* FEATURES */
+.features-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-secondary--);
+}
+.features-text {
+    font-weight: 400;
+}
+/* DIRECTIONS OF WORK */
+.direction-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-secondary--);
+}
+/* TEAM */
+/* FOOTER */
+/* PORTFOLIO */
