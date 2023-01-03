@@ -81,6 +81,7 @@ body {
     background-color: var(--color-logo-blue--);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -129,6 +130,7 @@ body {
     background: var(--color-logo-white--);
     border: 1px solid var(--color-footer-text--);
     border-radius: 4px;
+    cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
