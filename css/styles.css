@@ -3,7 +3,7 @@
     --color-secondary--: #2E2F42;
     --color-background--: #fff;
     --color-logo-blue--: #4D5AE5;
-    --color-button-hero-active--: #404BBF;
+    --color-button-active--: #404BBF;
     --color-logo-white--: #F4F4FD;
     --color-footer-text--: #E7E9FC;
 }
@@ -53,6 +53,12 @@ body {
 .header-menu {
     color: var(--color-secondary--);
 }
+.header-menu:hover,
+.header-menu:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--color-button-active--);
+}
 /* HEADER CONTACTS */
 .header-contacts {
     font-weight: 400;
@@ -78,7 +84,7 @@ body {
 }
 .hero-button:hover,
 .hero-button:focus {
-    background: var(--color-button-hero-active--);
+    background: var(--color-button-active--);
 }
 /* FEATURES, TEAM, PORTFOLIO */
 .features-subtitle, 
@@ -127,7 +133,7 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--color-background--);
-    background: var(--color-button-hero-active--);
+    background: var(--color-button-active--);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio-text {
