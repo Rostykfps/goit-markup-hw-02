@@ -22,6 +22,10 @@ body {
 .list {
     list-style: none;
 }
+.button {
+    cursor: pointer;
+    border: none;
+}
 
 /* STUDIO */
 /* HEADER */
@@ -81,24 +85,20 @@ body {
     background-color: var(--color-logo-blue--);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
     background: var(--color-button-active--);
 }
 /* FEATURES, TEAM, PORTFOLIO */
-.features-subtitle, 
-.team-subtitle,
-.portfolio-subtitle {
+.subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-secondary--);
 }
 /* DIRECTIONS OF WORK, TEAM */
-.direction-title,
-.team-title {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
