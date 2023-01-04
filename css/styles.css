@@ -125,7 +125,6 @@ body {
     background: var(--color-logo-white--);
     border: 1px solid var(--color-footer-text--);
     border-radius: 4px;
-    cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
