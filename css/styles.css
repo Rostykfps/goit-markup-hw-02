@@ -90,15 +90,15 @@ body {
 .hero-button:focus {
     background: var(--color-button-active--);
 }
-/* FEATURES, TEAM, PORTFOLIO */
-.subtitle {
+/* FEATURES */
+.features-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-secondary--);
 }
-/* DIRECTIONS OF WORK, TEAM */
-.title {
+/* DIRECTIONS OF WORK */
+.direction-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -106,7 +106,18 @@ body {
     color: var(--color-secondary--);
 }
 /* TEAM */
-
+.team-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-secondary--);}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--color-secondary--);
+}
 /* FOOTER */
 .footer {
     background-color: var(--color-secondary--);
@@ -131,6 +142,12 @@ body {
     color: var(--color-background--);
     background: var(--color-button-active--);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-secondary--);
 }
 .portfolio-text {
     color:  var(--color-primary--);
